@@ -747,8 +747,10 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/bit \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cfloat \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/climits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/clocale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cmath \
@@ -768,6 +770,7 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/execution \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/initializer_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iomanip \
@@ -807,6 +810,7 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/libkern/arm/OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/limits.h \
@@ -933,6 +937,7 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/xlocale/_wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/xlocale/_wctype.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
@@ -940,9 +945,245 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
   /Users/ljh/postgraduate/opengl_renderer/include/GLFW/glfw3.h \
   /Users/ljh/postgraduate/opengl_renderer/include/KHR/khrplatform.h \
   /Users/ljh/postgraduate/opengl_renderer/include/glad/glad.h \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/common.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/precision.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/setup.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/fwd.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/geometric.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x2.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x3.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x4.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x2.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x3.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x4.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x2.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x3.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x4.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/simd/common.h \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/simd/exponential.h \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/simd/geometric.h \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/simd/integer.h \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/simd/platform.h \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/vec2.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/vec3.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/vec4.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/_fixes.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/_vectorize.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_common.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_common.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_common_simd.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_exponential.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_exponential.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_exponential_simd.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_geometric.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_geometric.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_geometric_simd.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_integer.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_integer.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_integer_simd.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_matrix.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_matrix.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_matrix_simd.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_packing.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_packing.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_packing_simd.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_trigonometric.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_trigonometric.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_trigonometric_simd.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_vector_relational.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_vector_relational.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_vector_relational_simd.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/precision.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/setup.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_float.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_half.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_half.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_int.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x2.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x2.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x3.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x3.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x4.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x4.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x2.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x2.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x3.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x3.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x4.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x4.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x2.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x2.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x3.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x3.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x4.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x4.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x4_simd.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec1.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec1.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec2.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec2.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec3.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec3.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec4.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec4.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec4_simd.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/exponential.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/fwd.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/geometric.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/glm.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/setup.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/exponential.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/geometric.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/constants.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/quaternion.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x2.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x3.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x4.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x2.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x3.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x4.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x2.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x3.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x4.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/matrix.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/trigonometric.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/vec2.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/vec3.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/vec4.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/constants.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/matrix_transform.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/matrix_transform.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/quaternion.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/quaternion_simd.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/type_ptr.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/type_ptr.inl \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/integer.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x2.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x3.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x4.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x2.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x3.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x4.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x2.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x3.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x4.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/matrix.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/packing.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/trigonometric.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/vec2.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/vec3.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/vec4.hpp \
+  /Users/ljh/postgraduate/opengl_renderer/include/glm/vector_relational.hpp \
   /Users/ljh/postgraduate/opengl_renderer/src/shader.h \
   /Users/ljh/postgraduate/opengl_renderer/src/stb_image.h
 
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/vector_relational.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/packing.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/type_ptr.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/matrix_transform.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/matrix_transform.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/trigonometric.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/constants.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/glm.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/exponential.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec4_simd.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec3.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec2.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec2.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec1.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec1.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x4.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x4_simd.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x2.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x2.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x4.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x4.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x3.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x2.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_half.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_float.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_vector_relational.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_vector_relational.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_packing.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_matrix.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_integer_simd.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_integer.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_geometric_simd.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_geometric.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x3.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_exponential.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_common.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_exponential_simd.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/vec4.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/vec3.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/vec2.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/simd/integer.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x4.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x3.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x2.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x4.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x2.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x3.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_trigonometric.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x2.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/setup.hpp:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/common.hpp:
 
 /Users/ljh/postgraduate/opengl_renderer/include/GLFW/glfw3.h:
 
@@ -992,6 +1233,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_ino64_t.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_common_simd.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_gid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
@@ -1018,13 +1261,13 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/geometric.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityInternalLegacy.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/runetype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/pthread/pthread_impl.h:
 
@@ -1088,6 +1331,12 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/fstream:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/constants.inl:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x4.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/float.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/filesystem:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cwchar:
@@ -1105,6 +1354,10 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ostream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/concepts:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/errno.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cassert:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/bitset:
 
@@ -1202,6 +1455,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_signed_integer.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_scoped_enum.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_copy_backward.h:
@@ -1262,6 +1517,10 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_compound.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/quaternion.hpp:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/float.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_class.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_bounded_array.h:
@@ -1283,6 +1542,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__chrono/duration.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__utility/unreachable.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_aggregate.h:
 
@@ -1311,6 +1572,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/datasizeof.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/copy_cv.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/memory:
 
@@ -1379,6 +1642,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__ranges/container_compatible_range.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__ranges/concepts.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_vector_relational_simd.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/pthread/qos.h:
 
@@ -1496,9 +1761,13 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/size.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec3.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/wait.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/swap_allocator.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_half.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__fwd/hash.h:
 
@@ -1548,6 +1817,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_callable.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_geometric.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/front_insert_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/remove_extent.h:
@@ -1561,10 +1832,6 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/mach/arm/_structs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/default_sentinel.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sched.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_trivially_move_constructible.h:
 
@@ -1587,6 +1854,10 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/bounded_iter.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sched.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/access.h:
 
@@ -1622,6 +1893,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__fwd/get.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/_vectorize.hpp:
+
 /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdbool.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
@@ -1643,6 +1916,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/file_time_type.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x4.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/time.h:
 
@@ -1720,6 +1995,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__compare/weak_order.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x3.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stdlib.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/addressof.h:
@@ -1770,6 +2047,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_push_heap.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/_fixes.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__compare/synth_three_way.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__bit_reference:
@@ -1808,6 +2087,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__bit/bit_floor.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_packing_simd.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_remove.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__bit/bit_ceil.h:
@@ -1841,6 +2122,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__atomic/check_memory_order.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_nothrow_destructible.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/simd/exponential.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_errno_t.h:
 
@@ -1900,6 +2183,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/dlfcn.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x3.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/set_symmetric_difference.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_constructible.h:
@@ -1934,6 +2219,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/binary_function.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_exponential.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__concepts/copyable.h:
@@ -1950,9 +2237,15 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Users/ljh/postgraduate/opengl_renderer/include/glad/glad.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/simd/common.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_fill.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x2.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/quaternion.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_fd_def.h:
 
@@ -1974,6 +2267,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_matrix.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_stable_partition.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/pstl_merge.h:
@@ -1987,6 +2282,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/stable_partition.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_integer.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stdio.h:
 
@@ -2007,6 +2304,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/conjunction.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_set_symmetric_difference.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_copy_if.h:
 
@@ -2030,6 +2329,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_partition_copy.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x2.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/math.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/remove_pointer.h:
@@ -2038,13 +2339,13 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_search_n.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_int.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_next_permutation.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/arm/signal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_move.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/runetype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/bit:
 
@@ -2077,6 +2378,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_is_permutation.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x4.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/version:
 
@@ -2131,6 +2434,10 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_min_element.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_find.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/string.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cfloat:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_max.h:
 
@@ -2193,6 +2500,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__ranges/dangling.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_adjacent_find.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/matrix.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/conditional.h:
 
@@ -2266,7 +2575,11 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_trigonometric_simd.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/move.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/simd/platform.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__concepts/different_from.h:
 
@@ -2279,6 +2592,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__bit/byteswap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/none_of.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_common.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cstdlib:
 
@@ -2332,6 +2647,10 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_make_heap.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityInternalLegacy.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_types/_uint32_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/libkern/arm/OSByteOrder.h:
@@ -2339,6 +2658,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/generate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_uintptr_t.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/generate_n.h:
 
@@ -2369,6 +2690,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/hash.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cwctype:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_matrix_simd.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_int8_t.h:
 
@@ -2464,6 +2787,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_rsize_t.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec4.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_trivially_move_assignable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/disjunction.h:
@@ -2502,6 +2827,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/float.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/system_error:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_move_constructible.h:
@@ -2526,6 +2853,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec4.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_reference_wrapper.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_count_if.h:
@@ -2535,6 +2864,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/for_each_segment.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__chrono/convert_to_timespec.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/simd/geometric.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/max.h:
 
@@ -2552,13 +2883,13 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/malloc/_malloc_type.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x3.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_member_pointer.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/string.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__atomic/atomic_flag.h:
 
@@ -2573,6 +2904,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/min_element.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/arm/arch.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/type_ptr.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/wchar.h:
 
@@ -2594,6 +2927,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/partition.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/quaternion_simd.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/machine/types.h:
@@ -2602,11 +2937,11 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_sigaltstack.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/errno.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_trivial.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/arm/_mcontext.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_packing.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__utility/in_place.h:
 
@@ -2615,6 +2950,8 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/projected.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/integer.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_types/_uint16_t.h:
 
@@ -2640,15 +2977,21 @@ CMakeFiles/Render.dir/src/main.cpp.o: /Users/ljh/postgraduate/opengl_renderer/sr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/add_volatile.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/fwd.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/pstl_transform.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/Availability.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/remove_copy.h:
 
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_trigonometric.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/libdispatch.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_remove_copy_if.h:
+
+/Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x2.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_constant_evaluated.h:
 

@@ -749,8 +749,10 @@ CMakeFiles/Render.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/atomic
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/bit
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/bitset
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cassert
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cctype
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cerrno
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cfloat
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/climits
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/clocale
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cmath
@@ -770,6 +772,7 @@ CMakeFiles/Render.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/exception
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/execution
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/filesystem
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/float.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/fstream
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/initializer_list
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iomanip
@@ -809,6 +812,7 @@ CMakeFiles/Render.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/float.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/libkern/arm/OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/limits.h
@@ -935,6 +939,7 @@ CMakeFiles/Render.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/xlocale/_wchar.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/xlocale/_wctype.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/float.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/limits.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
@@ -942,6 +947,138 @@ CMakeFiles/Render.dir/src/main.cpp.o
  /Users/ljh/postgraduate/opengl_renderer/include/GLFW/glfw3.h
  /Users/ljh/postgraduate/opengl_renderer/include/KHR/khrplatform.h
  /Users/ljh/postgraduate/opengl_renderer/include/glad/glad.h
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/common.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/precision.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/setup.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/fwd.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/geometric.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x2.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x3.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x4.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x2.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x3.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x4.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x2.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x3.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x4.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/simd/common.h
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/simd/exponential.h
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/simd/geometric.h
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/simd/integer.h
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/simd/platform.h
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/vec2.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/vec3.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/vec4.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/_fixes.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/_vectorize.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_common.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_common.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_common_simd.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_exponential.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_exponential.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_exponential_simd.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_geometric.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_geometric.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_geometric_simd.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_integer.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_integer.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_integer_simd.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_matrix.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_matrix.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_matrix_simd.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_packing.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_packing.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_packing_simd.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_trigonometric.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_trigonometric.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_trigonometric_simd.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_vector_relational.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_vector_relational.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/func_vector_relational_simd.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/precision.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/setup.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_float.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_half.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_half.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_int.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x2.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x2.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x3.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x3.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x4.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat2x4.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x2.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x2.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x3.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x3.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x4.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat3x4.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x2.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x2.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x3.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x3.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x4.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x4.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_mat4x4_simd.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec1.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec1.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec2.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec2.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec3.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec3.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec4.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec4.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/type_vec4_simd.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/exponential.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/fwd.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/geometric.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/glm.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/detail/setup.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/exponential.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/geometric.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/constants.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/quaternion.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x2.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x3.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x4.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x2.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x3.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x4.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x2.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x3.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x4.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/matrix.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/trigonometric.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/vec2.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/vec3.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/vec4.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/constants.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/matrix_transform.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/matrix_transform.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/quaternion.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/quaternion_simd.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/type_ptr.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/gtc/type_ptr.inl
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/integer.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x2.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x3.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat2x4.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x2.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x3.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat3x4.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x2.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x3.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/mat4x4.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/matrix.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/packing.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/trigonometric.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/vec2.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/vec3.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/vec4.hpp
+ /Users/ljh/postgraduate/opengl_renderer/include/glm/vector_relational.hpp
  /Users/ljh/postgraduate/opengl_renderer/src/shader.h
  /Users/ljh/postgraduate/opengl_renderer/src/stb_image.h
 

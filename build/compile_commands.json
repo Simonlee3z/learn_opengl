@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/ljh/postgraduate/opengl_renderer/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -I/Users/ljh/postgraduate/opengl_renderer/include -I/Users/ljh/postgraduate/opengl_renderer/lib -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/Render.dir/src/glad.c.o -c /Users/ljh/postgraduate/opengl_renderer/src/glad.c",
+  "file": "/Users/ljh/postgraduate/opengl_renderer/src/glad.c",
+  "output": "CMakeFiles/Render.dir/src/glad.c.o"
+},
+{
+  "directory": "/Users/ljh/postgraduate/opengl_renderer/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/ljh/postgraduate/opengl_renderer/include -I/Users/ljh/postgraduate/opengl_renderer/lib -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/Render.dir/src/main.cpp.o -c /Users/ljh/postgraduate/opengl_renderer/src/main.cpp",
+  "file": "/Users/ljh/postgraduate/opengl_renderer/src/main.cpp",
+  "output": "CMakeFiles/Render.dir/src/main.cpp.o"
+}
+]

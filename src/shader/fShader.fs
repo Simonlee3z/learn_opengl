@@ -10,7 +10,9 @@ void main()
     {
         FragColor = texture(texture0, ourTexCoord) * vec4(0.8, 0.8, 0.8, 1);
         // discard;
-    else{
+    }
+    else
+    {
         FragColor = mix(texture(texture0, ourTexCoord), texture(texture1, ourTexCoord), 0.2);
     }
 }
