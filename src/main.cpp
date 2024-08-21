@@ -30,7 +30,7 @@ float deltaTime = 0.0f;
 float lastFrame = 0.0f;
 
 // lighting
-glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
+glm::vec3 lightPos(1.5f, 0.0f, 2.0f);
 
 
 int main()
@@ -227,6 +227,8 @@ int main()
         float currentFrame = glfwGetTime();
         deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
+        lightPos.x = cos(glfwGetTime()) * 3.0f;
+        lightPos.z = sin(glfwGetTime()) * 3.0f;
         // input
         processInput(window);
 
@@ -243,8 +245,8 @@ int main()
 
         // activate shader
         lightShader.use();
-        lightShader.setVec4("objectColor", 1.0f, 0.5f, 0.31f, 1.0f);
-        lightShader.setVec4("lightColor", 1.0f, 1.0f, 1.0f, 1.0f);
+        lightShader.setVec3("objectColor", 1.0f, 0.5f, 0.31f);
+        lightShader.setVec3("lightColor", 1.0f, 1.0f, 1.0f);
         lightShader.setVec3("lightPos", lightPos);
         lightShader.setVec3("viewPos", camera.Position);
 
