@@ -1,10 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Render.dir/src/glad.c.o"
-  "CMakeFiles/Render.dir/src/glad.c.o.d"
-  "CMakeFiles/Render.dir/src/main.cpp.o"
-  "CMakeFiles/Render.dir/src/main.cpp.o.d"
-  "Render"
+  "CMakeFiles/Render.dir/src/glad.c.obj"
+  "CMakeFiles/Render.dir/src/glad.c.obj.d"
+  "CMakeFiles/Render.dir/src/main.cpp.obj"
+  "CMakeFiles/Render.dir/src/main.cpp.obj.d"
+  "Render.exe"
+  "Render.exe.manifest"
   "Render.pdb"
+  "libRender.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
