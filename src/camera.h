@@ -10,7 +10,9 @@ enum Camera_Movement {
     FORWARD,
     BACKWARD,
     LEFT,
-    RIGHT
+    RIGHT,
+    UP,
+    DOWN
 };
 
 // Default camera values
@@ -29,6 +31,7 @@ public:
     glm::vec3 Position;
     glm::vec3 Front;
     glm::vec3 Up;
+    glm::vec3 Upwards = glm::vec3(0.0f, 1.0f, 0.0f); // absolute up vector
     glm::vec3 Right;
     glm::vec3 WorldUp;
     // euler Angles
@@ -76,6 +79,10 @@ public:
             Position -= Right * velocity;
         if (direction == RIGHT)
             Position += Right * velocity;
+        if (direction == UP)
+            Position += Upwards * velocity;
+        if (direction == DOWN)
+            Position -= Upwards * velocity;
     }
 
     // processes input received from a mouse input system. Expects the offset value in both the x and y direction.
@@ -123,6 +130,7 @@ private:
         // also re-calculate the Right and Up vector
         Right = glm::normalize(glm::cross(Front, WorldUp));  // normalize the vectors, because their length gets closer to 0 the more you look up or down which results in slower movement.
         Up    = glm::normalize(glm::cross(Right, Front));
+        // Upwards = glm::vec3(0.0f, 1.0f, 0.0f);
     }
 };
 #endif
