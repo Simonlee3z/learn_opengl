@@ -227,8 +227,8 @@ int main()
         float currentFrame = glfwGetTime();
         deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
-        lightPos.x = cos(glfwGetTime()) * 3.0f;
-        lightPos.z = sin(glfwGetTime()) * 3.0f;
+        // lightPos.x = cos(glfwGetTime()) * 3.0f;
+        // lightPos.z = sin(glfwGetTime()) * 3.0f;
         // input
         processInput(window);
 
@@ -245,10 +245,23 @@ int main()
 
         // activate shader
         lightShader.use();
+        glm::vec3 lightColor;
+        lightColor.x = 1.0f;
+        lightColor.y = 1.0f;
+        lightColor.z = 1.0f;
+
+        glm::vec3 diffuseColor = lightColor   * glm::vec3(1.0f); // 降低影响
+        glm::vec3 ambientColor = diffuseColor * glm::vec3(1.0f); // 很低的影响
         lightShader.setVec3("objectColor", 1.0f, 0.5f, 0.31f);
-        lightShader.setVec3("lightColor", 1.0f, 1.0f, 1.0f);
-        lightShader.setVec3("lightPos", lightPos);
+        lightShader.setVec3("light.ambient", ambientColor);
+        lightShader.setVec3("light.diffuse", diffuseColor);
+        lightShader.setVec3("light.specular", 1.0f, 1.0f, 1.0f);
+        lightShader.setVec3("light.position", lightPos);
         lightShader.setVec3("viewPos", camera.Position);
+        lightShader.setVec3("material.ambient", 0.0f, 0.1f, 0.06f);
+        lightShader.setVec3("material.diffuse", 0.0f, 0.5098f, 0.5098f);
+        lightShader.setVec3("material.specular", 0.5020f, 0.5020f, 0.5020f);
+        lightShader.setFloat("material.shininess", 32.0f);
 
         glm::mat4 model = glm::mat4(1.0f);
         glm::mat4 view = camera.GetViewMatrix();
@@ -263,6 +276,7 @@ int main()
         // glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
         lightCubeShader.use();
+        lightCubeShader.setVec3("lightColor", lightColor);
         lightCubeShader.setMat4("view", view);
         lightCubeShader.setMat4("projection", projection);
         model = glm::mat4(1.0f);
